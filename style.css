@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;900&display=swap');
+*{
+    margin: 0;
+    background-color: grey;
+ }
+ header{
+    background-color: grey;
+    width: 100vw;
+    height: 100px;
+    position: fixed;
+    z-index: 2;           
+}
+ .title{
+    font-family: 'Inknut Antiqua' sans-serif ;
+    color: black;
+    
+ }
+ .subtile{
+    font-family: 'Inknut Antiqua' sans-serif;
+ }
+
