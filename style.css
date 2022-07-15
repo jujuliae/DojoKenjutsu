@@ -2,20 +2,80 @@
 *{
     margin: 0;
     background-color: grey;
+    
  }
  header{
-    background-color: grey;
+    background-color:#000;
     width: 100vw;
-    height: 100px;
+    height: 15%;
     position: fixed;
     z-index: 2;           
 }
- .title{
-    font-family: 'Inknut Antiqua' sans-serif ;
-    color: black;
-    
- }
- .subtile{
-    font-family: 'Inknut Antiqua' sans-serif;
- }
 
+nav{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0;
+    
+}
+
+.logo{
+    height: 90px;
+    margin-right: 150px;
+    align-items: center;
+}
+
+nav a{
+    margin-right: 50px;
+    text-align: right;
+    font-family: 'Inknut Antiqua';
+    color:#000;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+   
+    
+}
+
+h1{
+    width: 1400px;
+    margin: auto;
+    text-align: left;
+    color: #000;
+    font-family: 'Inknut Antiqua';
+    font-size: 30px;
+    font-weight: 100;
+    background:none
+}
+.logo{
+    width: 150px;
+}
+main{
+     height: 900px;
+     
+     justify-content: center;
+     display: flex;
+     
+}
+.sobre{
+    text-align: left;
+    color: #000;
+    font-family: 'Inknut Antiqua';
+    font-size: 40px;
+}
+.lorem{
+    text-align: left;
+    color: #000;
+    font-family: 'Inknut Antiqua';
+    font-size: 20px;
+    
+}
+.imagem-espada{
+   width: 30%;
+   
+}
+.imagem-unica{
+    width: 100%;
+    margin-top: 40px;
+}
